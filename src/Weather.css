@@ -1,3 +1,51 @@
 .Weather {
+  font-family: arial, sans-serif;
   border: 1px solid #dadde1;
+  border-radius: 4px;
+  color: rgb(135, 135, 135);
+  padding: 16px;
+}
+
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+}
+
+.Weather img {
+  height: 64px;
+  width: 64px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.Weather .temperature {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.Weather .unit {
+  font-size: 16px;
+  color: rgb(33, 33, 33);
+  font-weight: 400;
+  position: relative;
+  top: -34px;
+  margin-left: 5px;
+  line-height: 1;
 }
